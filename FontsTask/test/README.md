@@ -1,0 +1,1 @@
+### Todays mandatory Task is that you should create a simple html layout with just a few texts and add a custom font (with all of the font types we saw in transfonter.org), and another task is to create another simple html layout add google fonts to your project and use it as well. THERE WONT BE A ASSIGNMENT FOR THE FONTS TASK, I WILL CHECK IT IN CLASS TOMORROW
