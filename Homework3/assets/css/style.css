@@ -1,0 +1,69 @@
+body{
+    margin: 15px 50px 5px;
+ } 
+ 
+i{ 
+color: #009688;
+}
+#bio aside p i{
+margin: 5px 10px 10px 5px;
+}
+
+.light-grey .round-large{
+background-color: #009688;
+border-radius: 10px;
+text-align: center;
+color: white;
+}
+.light-grey .round-xlarge{
+    background-color: #009688;
+    border-radius: 10px;
+   height: 20px;
+} 
+
+.aside{
+    width: 40%;
+    display: inline-block;
+}
+.aside img{
+    width: 100%;
+}
+
+.right /*experience*/{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    margin-left: 40px;
+}
+
+.span{
+    background-color: #009688;
+    padding: 0px 8px 2px;
+    color: #FFF;
+    border-radius: 5px;
+}
+.education{
+margin-top: 10%;
+}
+#footer{
+    text-align: center;
+    color: #FFF;
+    background-color:#009688 ;
+    margin-top: 15px;
+}
+#footer i{
+    color: #FFF;
+}
+
+
+/* .right .education{
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+    margin-left: 40px;
+} */
+
+/*2-nd html*/
+
+
+
