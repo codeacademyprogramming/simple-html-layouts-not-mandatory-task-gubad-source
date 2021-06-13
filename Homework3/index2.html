@@ -1,94 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
     <script
-    src="https://kit.fontawesome.com/454409f9ac.js"
-    crossorigin="anonymous"
-  ></script>
-</head>
-<body>
+      src="https://kit.fontawesome.com/454409f9ac.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <style>
-        body{
-          background-color: black;
-            font-size: 13px;
-        }
-       
-        
+      body {
+        background-color: black;
+        font-size: 16px;
+        font-family: sans-serif;
+      }
     </style>
-  <section id="corporation">
-    <header>
+    <section id="corporation">
+      <header>
         <div class="logo">
-            <div class="logo-text">
-                <span class="black-white-logo">
-                    black_white
-                </span>
-                <h4 style="margin-top: 0px; margin-bottom: 40px;">Simple.Contemporary.Website Template.</h4>
-            </div>
-            <div class="menubar">
-                <ul class="menu">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Examples</a></li>
-                    <li><a href="">A Page</a></li>
-                    <li><a href="">Another Page</a></li>
-                    <li class="selected"><a href="">Contact Us</a></li>
-                </ul>
-            </div>
+          <div class="logo-text">
+            <span class="black-white-logo"> black_white </span>
+            <h4 style="margin-top: 0px; margin-bottom: 40px">
+              Simple.Contemporary.Website Template.
+            </h4>
+          </div>
+          <div class="menubar">
+            <ul class="menu">
+              <li><a href="">Home</a></li>
+              <li><a href="">Examples</a></li>
+              <li><a href="">A Page</a></li>
+              <li><a href="">Another Page</a></li>
+              <li class="selected"><a href="">Contact Us</a></li>
+            </ul>
+          </div>
         </div>
-    </header>
-    <main>
+      </header>
+      <main>
         <div class="content">
-        <h1>Contact Us</h1>
-        <p>Below is an example of how a contact form might look with this template:</p>
-        <form action="">
-            <p>
-                <label for="text">Name</label>
-                <input type="text" name="text" id="text"  style="margin-left: 200px;"><br>
-            </p>
-           <p>
-            <label for="email">Email Address</label>
-            <input type="email" name="email" id="email" style="margin-left: 155px;"> <br>
-           </p>
-           <p>
-            <label for="" >Message</label>
-            <textarea name="" id="" cols="30" rows="10" style="margin-left: 110px;"></textarea><br>
-           </p>
-          
-            <button type="submit" style="margin-left: 340px; background-color: black;color: white;">submit</button>
-        </form>
-        <p>NOTE: A contact form such as this would require some way of emailing the input to an email address.</p>
+          <h1>Contact Us</h1>
+          <p>
+            Below is an example of how a contact form might look with this
+            template:
+          </p>
+          <form action="">
+            <div class="row">
+              <div class="col-25">
+                <label for="name"> Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="name" name="name" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="email">Email Address</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="email" name="email" />
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                  <label>Message</label>
+                </div>
+                <div class="col-75">
+                  <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+              </div>
+            <button
+              type="submit"
+              style="margin-left: 340px; background-color: black; color: white"
+            >
+              submit
+            </button>
+          </form>
+          <p>
+            NOTE: A contact form such as this would require some way of emailing
+            the input to an email address.
+          </p>
         </div>
         <div class="sidebar">
-           <h3>Latest News</h3>
-           <h4>New Website Launched</h4>
-           <p>2014 sees the redesign of our website. Take a look around and let us know what you think.
-            Read more</p>
-           <h4>New Website Launched</h4>
-           <p>2014 sees the redesign of our website. Take a look around and let us know what you think.
-            Read more</p>
-            <h3>Useful Links</h3>
-           <ul>
-               <li><i class="fas fa-paperclip"></i><a href="">link1</a></li>
-               <li><i class="fas fa-paperclip"></i><a href="">link2</a></li>
-               <li><i class="fas fa-paperclip"></i><a href="">link3</a></li>
-               <li><i class="fas fa-paperclip"></i><a href="">link4</a></li>
-           </ul>
-           <h3>Search</h3>
-           <input type="text"><i class="fas fa-search" style="padding-left: 20px;"></i>
+          <div class="news">
+            <h3>Latest News</h3>
+            <h4>New Website Launched</h4>
+            <p>
+              2014 sees the redesign of our website. Take a look around and let
+              us know what you think. <br />
+              Read more
+            </p>
+            <h4>New Website Launched</h4>
+            <p>
+              2014 sees the redesign of our website. Take a look around and let
+              us know what you think. <br />
+              Read more
+            </p>
+          </div>
+
+          <div class="link">
+            <ul>
+              <li><h3>Useful Links</h3></li>
+              <li><i class="fas fa-paperclip"></i><a href="">link1</a></li>
+              <li><i class="fas fa-paperclip"></i><a href="">link2</a></li>
+              <li><i class="fas fa-paperclip"></i><a href="">link3</a></li>
+              <li><i class="fas fa-paperclip"></i><a href="">link4</a></li>
+            </ul>
+          </div>
+
+          <div class="search">
+            <h3>Search</h3>
+            <input type="text" placeholder="Enter keywords..." /><i
+              class="fas fa-search"
+              style="padding-left: 20px"
+            ></i>
+          </div>
         </div>
-    </main>
-    <footer>
+      </main>
+      <footer>
         <div class="copyright">
-            <a href="">COPYRIGHT & BLACK_WHITE</a>|
-            <a href="">HTML5</a>|
-            <a href="">CSS</a>|
-           <a href="">DESIGN FROM HTML5WEBTEMPLATES.CO.UK</a>
+          <a href="">COPYRIGHT & BLACK_WHITE</a>| <a href="">HTML5</a>|
+          <a href="">CSS</a>|
+          <a href="">DESIGN FROM HTML5WEBTEMPLATES.CO.UK</a>
         </div>
-    </footer>
-  </section>
-</body>
+      </footer>
+    </section>
+  </body>
 </html>
